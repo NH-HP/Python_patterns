@@ -1,0 +1,6 @@
+n = 6
+for i in range(n, 0, -1):
+    for j in range(1, i + 1, 1):
+        print(chr(ord('A') - 1 + i),end = ' ')
+    print()
+
